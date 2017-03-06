@@ -1,3 +1,34 @@
 hello sefven
 this a test to see if this file will be updated with github
 ça marche!!!!!!  ^^
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+	</head>
+	<body>
+		<h1>les objets</h1>
+
+		<script>
+
+			//var  primitive = " je suis une valeur primitive";
+
+			var moi = {
+				prenom : "pierre",
+				nom : "giraud",
+				age : 25,
+
+				identite : function(){
+					return 'Prénom : ' + this.prenom +
+						'\nNom : ' + this.nom +
+						'\nAge: ' + this.age;
+				}
+			}
+			alert(moi.identite());
+
+		</script>
+	</body>
+</html>
+
+
