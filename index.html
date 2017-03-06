@@ -1,6 +1,11 @@
 hello sefven
 this a test to see if this file will be updated with github
 ça marche!!!!!!  ^^
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -27,8 +32,31 @@ this a test to see if this file will be updated with github
 			}
 			alert(moi.identite());
 
+
+		</script>
+
+		<script>
+			//--------------------------------objets natifs et creation d'objects----------------------------------------------
+			var primitive = "je suis une valeure primitive";
+			var type_prim = typeof(primitive);//string
+			var longueur_primitive = primitive.length;
+			var	maj_primitive = primitive.toUpperCase();//-----------------------pour afficher en maj
+
+
+			var chaine = new String("je suis un object");
+			var type_chain = typeof(chaine);//object
+			var maj_chaine = chaine.toUpperCase();//-----------------------------pour afficher en maj
+
+			alert('type de primitive : ' + type_prim +
+				  '\nType de chaine) : ' + type_chain);
+			
+			alert('longeure primitive : ' + longueur_primitive +
+				 '\nPrimitive en maj : ' + maj_primitive +
+				 '\nchaine en maj :' + maj_chaine);
 		</script>
 	</body>
 </html>
+
+/
 
 
