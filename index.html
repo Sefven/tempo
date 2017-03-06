@@ -14,7 +14,29 @@ this a test to see if this file will be updated with github
 	</head>
 	<body>
 		<h1>les objets</h1>
+ <script>
+            //---------------------------------------Les Fonctions--------------------------------------------
+            function multiplication(x,y) { //x,y sont les parametres qui vont etre remplacé par des nombres
+                alert(x*y);
+                return x + y ; //ne safiche pas, alors il faut creer une var pour la stocker. on ajoute resultat devant multiplication et on donne un nom
+            }
+            var resultat1 = multiplication(5,10);//arguments
+            var resultat2 = multiplication(-4,60);//arguments
 
+            alert(resultat1 + 2); //pour s'assuer que le resultat de return + 2 est bon,mème si return ne s'affiche pas
+
+
+
+            //---------------------------------------if else--------------------------------------------------
+            var heure = 19;
+            if (heure <= 18) {
+                bon = "bonjour";
+            }
+            else {
+                bon = "bonsoir";
+            }
+            alert(bon);
+        </script>
 		<script>
 
 			//var  primitive = " je suis une valeur primitive";
